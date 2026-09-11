@@ -29,6 +29,10 @@ main {
     max-width: 1000px;
     margin: 40px auto;
     padding: 0 20px;
+    background-image: url('../images/image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 footer {
@@ -163,6 +167,10 @@ footer {
     main {
         margin: 25px auto;
         padding: 0 15px;
+        background-image: url('../images/image.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
     }
 
     .hero {
