@@ -13,12 +13,13 @@
 
 {% for service in services %}
 
-    <div>
+    <div class="service-card">
+
         <h3>{{ service.name }}</h3>
 
         <p>{{ service.description }}</p>
+
     </div>
-    
 
 {% empty %}
 
